@@ -1,0 +1,19 @@
+{
+  "name": "tavernguard",
+  "version": "0.1.0",
+  "description": "Discord bot for the Snow College Diere Badger Guild",
+  "main": "./src/index.js",
+  "author": "Broderick Smith",
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/framework": "latest",
+    "@sapphire/plugin-subcommands": "^3.2.1",
+    "@sapphire/snowflake": "^3.2.2",
+    "discord.js": "13.x",
+    "dotenv": "^16.0.2",
+    "lokijs": "^1.5.12"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
